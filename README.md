@@ -4,6 +4,8 @@ RIP turns YAML dependency definitions into an interactive architecture map, then
 
 Technology stack: plain React JavaScript (`.jsx` and `.js`) for the frontend and FastAPI Python for the backend.
 
+For the two-participant explanation, equal contribution plan, workflow diagrams, and demo script, see [TEAM_PRESENTATION_GUIDE.md](TEAM_PRESENTATION_GUIDE.md).
+
 ## How it works
 
 ```mermaid
