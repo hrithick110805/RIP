@@ -1,0 +1,25 @@
+modified_component: Inventory Service
+direct_impact:
+  - Cart Service
+  - Order Service
+indirect_impact:
+  - Customer Portal
+  - Mobile App
+  - Invoice Service
+  - Reporting Service
+affected_applications:
+  - Customer Portal
+  - Mobile App
+test_scope:
+  - priority: P0 — Critical
+    tests:
+      - Product availability validation
+      - Inventory stock change handling
+  - priority: P1 — High
+    tests:
+      - Cart update flow
+      - Checkout flow
+      - Order placement
+  - priority: P2 — Medium
+    tests:
+      - Reporting data refresh

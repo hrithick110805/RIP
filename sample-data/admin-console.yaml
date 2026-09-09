@@ -1,0 +1,5 @@
+service: Admin Console
+type: application
+dependencies:
+  - Auth Service
+consumers: []

@@ -1,0 +1,9 @@
+service: Customer Portal
+type: application
+dependencies:
+  - Auth Service
+  - Customer Service
+  - Product Catalog Service
+  - Cart Service
+  - Order Service
+consumers: []

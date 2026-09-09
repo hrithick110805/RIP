@@ -1,0 +1,3 @@
+service: Service C
+type: service
+dependencies: [Service A]

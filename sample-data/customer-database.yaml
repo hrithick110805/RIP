@@ -1,0 +1,5 @@
+service: Customer DB
+type: database
+dependencies: []
+consumers:
+  - Customer Service
